@@ -34,7 +34,4 @@ def get_login_info(packet):
             if keyword in keywords_list:
                 return load
 
-
-
-
 sniff("eth0")
